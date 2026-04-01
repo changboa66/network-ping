@@ -2,6 +2,9 @@
 
 这是一款为 Antigravity（及兼容 VS Code 体系的编辑器）专门开发的一款极其轻量级的网络状态监测插件。它会静默地测试您当前与 `google.com` 的网络连通性，并在编辑器下方右侧状态栏中展示实时结果。
 
+**开源仓库**: [https://github.com/changboa66/network-ping](https://github.com/changboa66/network-ping)
+
+
 ## 🌟 功能亮点
 
 - **实时状态感知**：状态栏直观显示连通情况，当网络畅通时显示绿色的 `$(globe)` 图标，当访问受阻或超时时显示红色的 `$(bracket-error)` 错误图标。
