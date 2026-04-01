@@ -2,7 +2,7 @@
   "name": "network-ping",
   "displayName": "Network Ping",
   "description": "Antigravity plugin to test network connectivity to google.com",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "changboa66",
   "icon": "icon.png",
   "license": "MIT",
