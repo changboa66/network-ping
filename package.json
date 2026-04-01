@@ -4,6 +4,7 @@
   "description": "Antigravity plugin to test network connectivity to google.com",
   "version": "0.1.0",
   "publisher": "changboa66",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.80.0"
   },
