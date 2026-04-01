@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "publisher": "changboa66",
   "icon": "icon.png",
+  "license": "MIT",
   "engines": {
     "vscode": "^1.80.0"
   },
