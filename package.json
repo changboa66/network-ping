@@ -1,0 +1,39 @@
+{
+  "name": "network-ping",
+  "displayName": "Network Ping",
+  "description": "Antigravity plugin to test network connectivity to google.com",
+  "version": "0.1.0",
+  "publisher": "changboa66",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/changboa66/network-ping.git"
+  },
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "network-ping.check",
+        "title": "Check Network Ping"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.80.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.1.3"
+  }
+}
